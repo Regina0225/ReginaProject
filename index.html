@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regina Dajoung Park - COMP2132 Final Project</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="js/function.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div id="titleContainer">
+    <h1>Dice Game</h1>
+    </div>
+
+    <div id="container">
+      <div class="dice-container-wrapper">
+        <div class="dice-container">
+          <h2>User</h2>
+            <div id="userDice" class="dice">
+              <img id="userDice1" src="dice_images/1.png" alt="Dice 1" />
+              <img id="userDice2" src="dice_images/1.png" alt="Dice 2" />
+            </div>
+          <p>Round Result: <span id="userRoundScore">0</span></p>
+          <p>Total Score: <span id="userTotalScore">0</span></p>
+        </div>
+      
+        <div class="dice-container">
+          <h2>Computer</h2>
+            <div id="computerDice" class="dice">
+              <img id="computerDice1" src="dice_images/1.png" alt="Dice 1" />
+              <img id="computerDice2" src="dice_images/1.png" alt="Dice 2" />
+            </div>
+          <p>Round Result: <span id="computerRoundScore">0</span></p>
+          <p>Total Score: <span id="computerTotalScore">0</span></p>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button onclick="rollDice()">Roll Dice</button>
+        <button onclick="resetGame()">Reset Game</button>
+        <button onclick="showRules()">Rules</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  color: #f6efef;
+  background-image: url("/dice_images/dice1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#titleContainer {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(244, 149, 48);
+}
+
+#container {
+  color: black;
+  padding: 5%;
+  padding-top: 1%;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: rgba(244, 201, 158, 0.875);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.dice-container-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dice-container {
+  width: 500px;
+  margin: 10px;
+  background-color: #1039f0;
+}
+
+.dice img {
+  width: 100px;
+  height: auto;
+}
+
+#diceContainer {
+  width: 500px;
+  margin: 10px;
+  background-color: #1039f0;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1039f0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: hsl(48, 79%, 53%);
+}
